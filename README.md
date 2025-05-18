@@ -1,2 +1,7 @@
 # Greg-s_Portofolio
-Data Analytics Portoflio
+Hi, I’m Greg , a junior data analyst eager to turn numbers into clear, useful stories.
+My current toolkit:
+
+- SQL – writing queries for data extraction, cleaning, and summarization
+- Microsoft Excel – advanced formulas, pivot tables, basic VBA macros
+- Power BI – building interactive dashboards to visualize insights
