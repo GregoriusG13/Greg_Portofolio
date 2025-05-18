@@ -1,4 +1,4 @@
-# Greg-s_Portofolio
+# Greg Portofolio
 Hi, I’m Greg , a junior data analyst eager to turn numbers into clear, useful stories.
 My current toolkit:
 
