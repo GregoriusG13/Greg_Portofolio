@@ -47,4 +47,69 @@ This project focuses on segmenting customers based on their purchasing behavior 
 - `cleaned_data.sql` — SQL script for cleaning and RFM segmentation  
 - `rfm_dashboard.xlsx` — Excel dashboard file  
 - `rfm_dashboard.png` — Exported image of the dashboard  
-- `README.md` — Project description (this file)  
+- `README.md` — Project description (this file)
+
+---
+
+# [2.📊 Sales Performance Dashboard (Excel + Power BI) ](https://www.example.com)
+
+This project visualizes sales performance across multiple regions for a national retail company. The dashboard is designed to support **strategic decision-making** by showcasing key sales metrics and trends through interactive visualizations.
+
+---
+
+## 🛠 Tools Used
+
+- **Excel** – For initial data cleaning and formatting  
+- **Power BI** – For data modeling and dashboard creation  
+
+---
+
+## 🔍 What We Did
+
+- Collected a sales dataset (e.g., from Kaggle)
+- Cleaned and prepared the data in Excel:
+  - Standardized date formats
+  - Removed duplicates
+  - Formatted currency fields
+- Imported the cleaned dataset into Power BI
+- Built relationships between tables (sales, products, customers)
+- Created interactive visualizations:
+  - 📦 Total Sales & Total Profit (Cards)
+  - 🌍 Sales by Region (Map or Treemap)
+  - 📈 Sales Trend by Year (Line Chart)
+  - 🏆 Top 10 Selling Products (Table)
+  - 📊 Top 10 Products by Sub-Category (Bar Chart)
+- Added slicers for dynamic filtering (e.g., by product, region)
+- Exported the final dashboard to PDF for sharing
+
+---
+
+## 📈 Outputs
+
+- [📁 Cleaned Excel Dataset](https://www.example.com)
+- [📊 Power BI Dashboard (.pbix)](https://www.example.com)
+- [📄 PDF Version of the Report](https://www.example.com)
+
+---
+
+## 📁 File Structure
+
+- `sales_raw_data.csv` – Original dataset (optional)
+- `cleaned_sales_data.xlsx` – Cleaned and formatted data in Excel  
+- `sales_dashboard.pbix` – Power BI dashboard file  
+- `sales_dashboard.pdf` – Exported PDF version of the dashboard  
+- `README.md` – Project overview and documentation (this file)  
+
+---
+
+## 📌 Business Insights
+
+This dashboard provides insights such as:
+- Top-performing products and categories
+- Regions contributing most to sales and profit
+- Seasonal or annual sales trends
+- Opportunities for growth in underperforming areas
+
+---
+
+> 📬 For questions or collaboration, feel free to contact me on [LinkedIn] or via email.
