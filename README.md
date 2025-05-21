@@ -6,4 +6,4 @@ My current toolkit:
 - Microsoft Excel – advanced formulas, pivot tables, basic VBA macros
 - Power BI – building interactive dashboards to visualize insights
 
-  ![alt text](image.jpg)
+  ![alt text](LOGO.png)
