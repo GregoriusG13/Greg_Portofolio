@@ -5,3 +5,5 @@ My current toolkit:
 - SQL – writing queries for data extraction, cleaning, and summarization
 - Microsoft Excel – advanced formulas, pivot tables, basic VBA macros
 - Power BI – building interactive dashboards to visualize insights
+
+  ![alt text](image.jpg)
