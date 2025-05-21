@@ -6,4 +6,4 @@ My current toolkit:
 - Microsoft Excel – advanced formulas, pivot tables, basic VBA macros
 - Power BI – building interactive dashboards to visualize insights
 
-  ![LOGO](Customer%20Segmentation/LOGO.png)
+<img src="Customer%20Segmentation/LOGO.png" alt="LOGO" width="200">
