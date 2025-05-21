@@ -8,45 +8,44 @@ My current toolkit:
 
 # [📊 Customer Segmentation with RFM (PostgreSQL + Excel)](https://www.example.com)
 
-Proyek ini bertujuan untuk mengelompokkan pelanggan berdasarkan perilaku belanja mereka menggunakan metode **RFM (Recency, Frequency, Monetary)**. Pendekatan ini membantu tim marketing untuk memahami karakteristik pelanggan dan menyusun strategi promosi yang lebih tepat sasaran.
+This project focuses on segmenting customers based on their purchasing behavior using the **RFM (Recency, Frequency, Monetary)** method. The goal is to help the marketing team create more targeted and effective campaigns using data-driven insights.
 
 ---
 
-## 🧰 Tools yang Digunakan
+## 🧰 Tools Used
 
-- **PostgreSQL** – Membersihkan data dan menghitung skor RFM langsung dari SQL
-- **Excel** – Membuat dashboard visualisasi menggunakan Pivot Table dan grafik
-
----
-
-## 🔄 Alur Proyek
-
-1. **Import dan Pembersihan Data**
-   - File mentah dimuat dari [`raw_data.csv`](https://www.example.com)
-   - Pembersihan dan perhitungan RFM dilakukan melalui SQL script: [`cleaned_data.sql`](https://www.example.com)
-2. **Perhitungan RFM**
-   - **Recency**: Terakhir kali pelanggan melakukan pembelian  
-   - **Frequency**: Seberapa sering mereka bertransaksi  
-   - **Monetary**: Total nilai transaksi
-3. **Segmentasi Pelanggan**
-   - Pelanggan dikelompokkan menjadi:
-     - **Loyal**
-     - **Regular**
-     - **New**
-     - **Lost**
-4. **Visualisasi Dashboard**
-   - Hasil ekspor dibuka di Excel dan divisualisasikan:
-     [`rfm_dashboard.xlsx`](https://www.example.com)
+- **PostgreSQL** – For cleaning the data and calculating RFM scores using SQL
+- **Excel** – For building dashboards using PivotTables and charts
 
 ---
 
-## 📁 Struktur File
+## 🔄 Project Workflow
 
-```bash
-.
-├── raw_data.csv             # Data transaksi mentah
-├── cleaned_data.sql         # SQL script untuk cleaning dan RFM scoring
-├── rfm_dashboard.xlsx       # File Excel dashboard
-├── rfm_dashboard.png        # Gambar hasil visualisasi
-└── README.md                # Deskripsi proyek
+1. **Data Import and Cleaning**
+   - Raw transaction data was imported from [`raw_data.csv`](https://www.example.com)
+   - Data was cleaned and processed using SQL: [`cleaned_data.sql`](https://www.example.com)
 
+2. **RFM Metrics Calculation**
+   - **Recency**: How recently a customer made a purchase  
+   - **Frequency**: How often a customer makes purchases  
+   - **Monetary**: How much the customer spends
+
+3. **Customer Segmentation**
+   Customers were grouped into:
+   - **Loyal**
+   - **Regular**
+   - **New**
+   - **Lost**
+
+4. **Dashboard Visualization**
+   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://www.example.com)
+
+---
+
+## 📁 File Structure
+
+- `raw_data.csv` — Raw transaction data  
+- `cleaned_data.sql` — SQL script for cleaning and RFM segmentation  
+- `rfm_dashboard.xlsx` — Excel dashboard file  
+- `rfm_dashboard.png` — Exported image of the dashboard  
+- `README.md` — Project description (this file)  
