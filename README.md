@@ -76,7 +76,7 @@ This project visualizes sales performance across multiple regions for a national
 - Built relationships between tables (sales, products, customers)
 - Created interactive visualizations:
   - 📦 Total Sales & Total Profit (Cards)
-  - 🌍 Sales by Region (Map or Treemap)
+  - 🌍 Sales by Region (Treemap)
   - 📈 Sales Trend by Year (Line Chart)
   - 🏆 Top 10 Selling Products (Table)
   - 📊 Top 10 Products by Sub-Category (Bar Chart)
@@ -104,14 +104,10 @@ This project visualizes sales performance across multiple regions for a national
 
 ---
 
-## 📌 Business Insights
+## 📌 Key Insights
 
 This dashboard provides insights such as:
 - Top-performing products and categories
 - Regions contributing most to sales and profit
 - Seasonal or annual sales trends
 - Opportunities for growth in underperforming areas
-
----
-
-> 📬 For questions or collaboration, feel free to contact me on [LinkedIn] or via email.
