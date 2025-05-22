@@ -38,6 +38,7 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 4. **Dashboard Visualization**
    - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://www.example.com)
+   - ![Customer Segmentation](image.jpg)
 
 ---
 
