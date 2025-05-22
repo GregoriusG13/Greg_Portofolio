@@ -21,8 +21,8 @@ This project focuses on segmenting customers based on their purchasing behavior 
 ## 🔄 Project Workflow
 
 1. **Data Import and Cleaning**
-   - Raw transaction data was imported from [`raw_data.csv`]([https://www.example.com](https://drive.google.com/file/d/1SQtxGTd9Nks1p-Y-BsoHkard7gi4FnR1/view?usp=drive_link))
-   - Data was cleaned and processed using SQL: [`cleaned_data.sql`]([https://www.example.com](https://drive.google.com/file/d/1GTN4h0fKGRj--eYD-1lIOVgSOWmw4-bu/view?usp=drive_link))
+   - Raw transaction data was imported from [`raw_data.csv`](https://drive.google.com/file/d/1SQtxGTd9Nks1p-Y-BsoHkard7gi4FnR1/view?usp=drive_link)
+   - Data was cleaned and processed using SQL: [`cleaned_data.sql`](https://drive.google.com/file/d/1GTN4h0fKGRj--eYD-1lIOVgSOWmw4-bu/view?usp=drive_link)
 
 2. **RFM Metrics Calculation**
    - **Recency**: How recently a customer made a purchase  
@@ -37,7 +37,7 @@ This project focuses on segmenting customers based on their purchasing behavior 
    - **Lost**
 
 4. **Dashboard Visualization**
-   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`]([https://www.example.com](https://docs.google.com/spreadsheets/d/1m3LPRdzmRKLK7wDkkPmdov1O3R52GVE1/edit?usp=drive_link&ouid=110288971818370501017&rtpof=true&sd=true))
+   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://docs.google.com/spreadsheets/d/1m3LPRdzmRKLK7wDkkPmdov1O3R52GVE1/edit?usp=drive_link&ouid=110288971818370501017&rtpof=true&sd=true)
       ![Customer Segmentation](image/Visualization_OnlineRetail_Segmentation.jpg)
 
 ---
