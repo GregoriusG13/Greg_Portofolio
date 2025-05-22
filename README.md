@@ -2,7 +2,7 @@ Hi, I’m Greg , a junior data analyst eager to turn numbers into clear, useful 
 My current toolkit:
 
 - SQL – writing queries for data extraction, cleaning, and summarization
-- Microsoft Excel – intermediate formulas, pivot tables, basic VBA macros
+- Microsoft Excel – intermediate formulas, pivot tables, basic VBA macros, dashboards to visualize insights
 - Power BI – building interactive dashboards to visualize insights
 
 # [1.📊 Customer Segmentation with RFM (PostgreSQL + Excel)](https://www.example.com)
