@@ -87,9 +87,9 @@ This project visualizes sales performance across multiple regions for a national
 
 ## 📈 Outputs
 
-- [📁 Cleaned Excel Dataset](https://www.example.com)
-- [📊 Power BI Dashboard (.pbix)](https://www.example.com)
-- [📄 PDF Version of the Report](https://www.example.com)
+- [📁 Cleaned Excel Dataset](https://docs.google.com/spreadsheets/d/1hblZs4XdTkJnqLplfJCUtXqisTk0D6uT/edit?usp=drive_link&ouid=110288971818370501017&rtpof=true&sd=true)
+- [📊 Power BI Dashboard (.pbix)](https://app.powerbi.com/view?r=eyJrIjoiYzlmZWM2MjEtOGJjOS00M2YyLTg0MWEtYmFmYTRlZThkMmFmIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D)
+  ![Visualization Super Store](image/Visualization_OnlineRetail_Segmentation.jpg)
 
 ---
 
