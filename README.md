@@ -7,7 +7,7 @@ My current toolkit:
 
 # [1.📊 Customer Segmentation with RFM (PostgreSQL + Excel)](https://drive.google.com/drive/folders/14kiHvzyOFG51J7z-kCDdLrYsITSNIUMe?usp=drive_link)
 
-This project focuses on segmenting customers based on their purchasing behavior using the **RFM (Recency, Frequency, Monetary)** method. The goal is to help the marketing team create more targeted and effective campaigns using data-driven insights.
+This project applies the RFM (Recency, Frequency, Monetary) model to segment customers based on their purchasing behavior. Using SQL in PostgreSQL for data cleaning and metric calculation, followed by Excel for dashboard creation, the project provides actionable insights into customer value and engagement. The goal is to empower the marketing team with data-driven segmentation to tailor retention, reactivation, and upsell campaigns more effectively.
 
 ---
 
@@ -79,7 +79,7 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 # [2.📊 Sales Performance Dashboard (Excel + Power BI) ](https://drive.google.com/drive/folders/1Ge4MCm3arTicQK0BQR6GeKtaVFo3zHZO?usp=sharing)
 
-This project visualizes sales performance across multiple regions for a national retail company. The dashboard is designed to support **strategic decision-making** by showcasing key sales metrics and trends through interactive visualizations.
+This project visualizes sales performance across multiple regions for a national retail company using Power BI. Cleaned and formatted in Excel, the dataset highlights key sales metrics such as revenue, profit, product performance, and regional trends. The interactive dashboard supports strategic decision-making through dynamic filtering and insights into top-performing products, underperforming regions, and seasonal sales patterns.
 
 ---
 
@@ -155,7 +155,7 @@ This project visualizes sales performance across multiple regions for a national
 
 # [3. 📊 Sales KPI Dashboard (PostgreSQL + Power BI)](https://www.example.com)
 
-This project visualizes key sales metrics from a PostgreSQL database using Power BI. The goal is to enable **real-time performance monitoring** of sales activities across products, regions, and sales personnel.
+This project visualizes key sales metrics of pharmacy products stored in a PostgreSQL database using Power BI. It enables real-time monitoring of sales performance across products, regions, and sales personnel. The interactive dashboard highlights total revenue, monthly trends, regional breakdowns, and top-performing pharmacy items, supporting data-driven decisions and strategic planning.
 
 ---
 
