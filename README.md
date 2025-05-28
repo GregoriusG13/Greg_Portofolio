@@ -52,7 +52,7 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 ---
 
-# [2.📊 Sales Performance Dashboard (Excel + Power BI) ](https://www.example.com)
+# [2.📊 Sales Performance Dashboard (Excel + Power BI) ](https://drive.google.com/drive/folders/1Ge4MCm3arTicQK0BQR6GeKtaVFo3zHZO?usp=sharing)
 
 This project visualizes sales performance across multiple regions for a national retail company. The dashboard is designed to support **strategic decision-making** by showcasing key sales metrics and trends through interactive visualizations.
 
@@ -111,3 +111,63 @@ This dashboard provides insights such as:
 - Regions contributing most to sales and profit
 - Seasonal or annual sales trends
 - Opportunities for growth in underperforming areas
+
+# [3. 📊 Sales KPI Dashboard (PostgreSQL + Power BI)](https://www.example.com)
+
+This project visualizes key sales metrics from a PostgreSQL database using Power BI. The goal is to enable **real-time performance monitoring** of sales activities across products, regions, and sales personnel.
+
+---
+
+## 🛠 Tools Used
+
+- **PostgreSQL** – For storing and querying sales data  
+- **Power BI** – For data visualization and interactive dashboards  
+
+---
+
+## 🔍 Project Workflow
+
+- Created a `sales_data` table in PostgreSQL and imported raw sales data
+- Connected Power BI to PostgreSQL using the native connector
+- Built calculated fields such as:  
+  - `total_sales = quantity * price`
+- Developed key visual components:
+  - **💰 Total Revenue (Card):** Overall sales value across all transactions
+  - **📈 Monthly Sales Trend (Line Chart):** Tracks sales patterns and seasonality
+  - **📍 Sales by Region (Bar Chart):** Compares sales performance across cities or regions
+  - **🏆 Top 5 Products (Table):** Lists highest-revenue pharmacy products
+- Added slicers for dynamic filtering by Region and Salesperson
+- Designed a clean, intuitive dashboard for exploration and insights
+
+---
+
+## 📈 Outputs
+
+- [📊 Power BI Dashboard (.pbix)](https://www.example.com)
+- [🧾 PostgreSQL Query Script (.sql)](https://www.example.com)
+- [📄 Dashboard Snapshot (PDF)](https://www.example.com)
+
+---
+
+## 📁 File Structure
+
+- `sales_raw_data.csv` – Raw sales dataset (optional)  
+- `sales_data.sql` – SQL script to create and populate the PostgreSQL table  
+- `sales_kpi_dashboard.pbix` – Power BI dashboard file  
+- `sales_dashboard.pdf` – Exported PDF of the dashboard  
+- `README.md` – Project description and documentation (this file)  
+
+---
+
+## 📌 Business Insights
+
+This dashboard helps business stakeholders:
+- Monitor real-time sales performance
+- Evaluate regional contributions and underperforming areas
+- Identify best-selling products and top salespeople
+- Make informed decisions through dynamic, filterable views
+
+---
+
+> 📬 For feedback or collaboration, feel free to connect via [LinkedIn] or send an email.
+
