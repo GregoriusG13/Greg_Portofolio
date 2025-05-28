@@ -134,22 +134,24 @@ This project visualizes sales performance across multiple regions for a national
 💰 Revenue Drivers
 
 - Top 10 products contribute over 60% of total revenue
-- High-performing regions consistently outperform across all years
+- High-performing regions like West and Central consistently lead in annual sales
 
 📉 Underperforming Regions
 
-- Certain regions contribute <5% of total sales
-- Indicate low market penetration or need for localized campaigns
+- Southern region contributes only ~13% of total sales
+- Indicates potential for regional growth through tailored campaigns
 
 📈 Seasonal Trends
 
-- Peaks observed in Q2 and Q4 across most years
+- Sales peak in Q2 and Q4 in most years
 - Useful for planning inventory and promotional bursts
 
 🏷 Category Trends
 
-- Electronics and personal care dominate in both volume and profit
-- Sub-categories vary significantly by region
+- Technology and Office Supplies lead in both volume and profit
+- Sub-category performance varies by region
+
+---
 
 # [3. 📊 Sales KPI Dashboard (PostgreSQL + Power BI)](https://www.example.com)
 
@@ -212,8 +214,8 @@ This project visualizes key sales metrics from a PostgreSQL database using Power
 
 📍 Regional Opportunities
 
-- Underperforming regions show <3% of total contribution
-- May benefit from targeted sales enablement or marketing
+- All regions contribute more than 19% to total revenue
+- Focus can shift toward strategy equalization and deeper market penetration in similar-performing regions
 
 📆 Sales Trends
 
