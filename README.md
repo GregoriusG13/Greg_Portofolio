@@ -184,10 +184,9 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 ## 📈 Outputs
 
-- [📊 Power BI Dashboard (.pbix)](https://www.example.com)
 - [🧾 Sales Raw Data (.xls)](https://www.example.com)
-- [📄 Dashboard Snapshot (PDF)](https://www.example.com)
-
+- Final dashboard to visualize Sales KPI data for Healthcare Products: [`Sales_KPI_HealthcareProducts.pbix`](https://app.powerbi.com/view?r=eyJrIjoiM2NjZTcwNjktNjEyNi00NmE3LWI0ODUtZmNjNjZmNDAwOGNkIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D)
+      ![Customer Segmentation](image/Visualization_OnlineRetail_Segmentation.jpg)
 ---
 
 ## 📁 File Structure
