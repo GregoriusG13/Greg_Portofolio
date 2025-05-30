@@ -5,6 +5,10 @@ My current toolkit:
 - Microsoft Excel – intermediate formulas, pivot tables, basic VBA macros, dashboards to visualize insights
 - Power BI – building interactive dashboards to visualize insights
 
+---
+
+# Here are some personal projects I have worked on:
+
 # [1.📊 Customer Segmentation with RFM (PostgreSQL + Excel)](https://drive.google.com/drive/folders/14kiHvzyOFG51J7z-kCDdLrYsITSNIUMe?usp=drive_link)
 
 This project applies the RFM (Recency, Frequency, Monetary) model to segment customers based on their purchasing behavior. Using SQL in PostgreSQL for data cleaning and metric calculation, followed by Excel for dashboard creation, the project provides actionable insights into customer value and engagement. The goal is to empower the marketing team with data-driven segmentation to tailor retention, reactivation, and upsell campaigns more effectively.
