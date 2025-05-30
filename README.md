@@ -153,7 +153,7 @@ This project visualizes sales performance across multiple regions for a national
 
 ---
 
-# [3. 📊 Sales KPI Dashboard (PostgreSQL + Power BI)](https://www.example.com)
+# [3. 📊 Sales KPI Dashboard (PostgreSQL + Power BI)](https://drive.google.com/drive/folders/1sQtYUZ8_jwPQG_HOcTILeL1pKkWmVZRu?usp=sharing)
 
 This project visualizes key sales metrics of pharmacy products stored in a PostgreSQL database using Power BI. It enables real-time monitoring of sales performance across products, regions, and sales personnel. The interactive dashboard highlights total revenue, monthly trends, regional breakdowns, and top-performing pharmacy items, supporting data-driven decisions and strategic planning.
 
@@ -184,7 +184,7 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 ## 📈 Outputs
 
-- [🧾 Sales Raw Data (.xls)](https://www.example.com)
+- [🧾 Sales Raw Data (.xls)](https://drive.google.com/file/d/1Q4Re1_XqnJzNR89yZwsTfiWcq9QV3lcP/view?usp=sharing)
 - Final dashboard to visualize Sales KPI data for Healthcare Products: [`Sales_KPI_HealthcareProducts.pbix`](https://app.powerbi.com/view?r=eyJrIjoiM2NjZTcwNjktNjEyNi00NmE3LWI0ODUtZmNjNjZmNDAwOGNkIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D)
       ![Customer Segmentation](image/Sales_KPI_Healthcare.png)
 ---
