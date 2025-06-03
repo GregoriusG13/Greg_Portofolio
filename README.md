@@ -58,26 +58,25 @@ This project applies the RFM (Recency, Frequency, Monetary) model to segment cus
 
 ## 📌 Key Insights
 
-💎 Loyal Segment:
+**💎 Loyal Segment:**
 - Represents only ~12% of total customers
-- But contributes ~58% of total revenue
-- These are the most valuable customers to retain and upsell
+- But the highest share ($4.8M)
+- High-value segment to retain and upsell
 
-👍 Regular Segment:
-- Largest in customer count (~40 million)
-- Generates ~36% of revenue
-- Has potential to be converted into "Loyal" through promotions and loyalty programs
+**👍 Regular Segment:**
+- Largest in customer count (~60%)
+- Contributes 36% of revenue ($3.0M)
+- Strong potential for upsell and loyalty programs
 
-💤 Lost Segment:
-- Previously active but currently inactive customers
-- Opportunity for reactivation campaigns
-- Contributes 5% of revenue
+**💤 Lost Segment:**
+- Previously active but now inactive 
+- Contributes ~5% of revenue
+- Ideal target for reactivation campaigns
 
-🌱 New Segment:
-- Recently acquired or low-activity customers
-- Currently contributes less than 1% of revenue
-- Needs nurturing to become more active
-
+**🌱 New Segment:**
+- Recently acquired or low-activity users
+- Generates less than 1% of revenue
+- Needs onboarding and engagement efforts
 
 ---
 
@@ -94,7 +93,7 @@ This project visualizes sales performance across multiple regions for a national
 
 ---
 
-## 🔍 What We Did
+## 🔄 Project Workflow
 
 - Collected a sales dataset (e.g., from Kaggle)
 - Cleaned and prepared the data in Excel:
@@ -170,7 +169,7 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 ---
 
-## 🔍 Project Workflow
+## 🔄 Project Workflow
 
 - Created a `sales_data` table in PostgreSQL and imported raw sales data
 - Connected Power BI to PostgreSQL using the native connector
