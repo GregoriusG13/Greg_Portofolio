@@ -41,7 +41,7 @@ This project applies the RFM (Recency, Frequency, Monetary) model to segment cus
    - **Lost**
 
 4. **Dashboard Visualization**
-   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://docs.google.com/spreadsheets/d/1fCtCg8-T2IGCk9ooYXxtIsvgHNqHYSpx/edit?usp=sharing&ouid=110288971818370501017&rtpof=true&sd=true)
+   - Final data was exported to Excel and visualized in a dashboard: [`Visualization_OnlineRetail_Segmentation.xlsx`](https://docs.google.com/spreadsheets/d/1fCtCg8-T2IGCk9ooYXxtIsvgHNqHYSpx/edit?usp=sharing&ouid=110288971818370501017&rtpof=true&sd=true)
       ![Customer Segmentation](image/Visualization_OnlineRetail_Segmentation.jpg)
 
 ---
@@ -50,7 +50,7 @@ This project applies the RFM (Recency, Frequency, Monetary) model to segment cus
 
 - `raw_data.csv` — Raw transaction data  
 - `cleaned_data.sql` — SQL script for cleaning and RFM segmentation  
-- `rfm_dashboard.xlsx` — Excel dashboard file  
+- `Visualization_OnlineRetail_Segmentation.xlsx` — Excel dashboard file  
 - `rfm_dashboard.png` — Exported image of the dashboard  
 - `README.txt` — Project description (this file)
 
