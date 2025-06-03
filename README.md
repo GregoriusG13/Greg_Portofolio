@@ -52,7 +52,7 @@ This project applies the RFM (Recency, Frequency, Monetary) model to segment cus
 - `cleaned_data.sql` — SQL script for cleaning and RFM segmentation  
 - `rfm_dashboard.xlsx` — Excel dashboard file  
 - `rfm_dashboard.png` — Exported image of the dashboard  
-- `README.md` — Project description (this file)
+- `README.txt` — Project description (this file)
 
 ---
 
@@ -165,7 +165,7 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 ## 🛠 Tools Used
 
-- **PostgreSQL** – For storing and querying sales data  
+- **PostgreSQL** – For storing and querying sales data
 - **Power BI** – For data visualization and interactive dashboards  
 
 ---
@@ -177,10 +177,11 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 - Built calculated fields such as:  
   - `total_sales = quantity * price`
 - Developed key visual components:
-  - **💰 Total Revenue (Card):** Overall sales value across all transactions
+  - **💰 Total Sales (Card): Displays the total value of all product sales
+  - **📦 Total Orders (Card): Shows the total number of orders placed
   - **📈 Monthly Sales Trend (Line Chart):** Tracks sales patterns and seasonality
   - **📍 Sales by Region (Bar Chart):** Compares sales performance across cities or regions
-  - **🏆 Top 5 Products (Table):** Lists highest-revenue pharmacy products
+  - **🏆 Top 5 Products (Table):** Lists highest-revenue Healthcare products
 - Added slicers for dynamic filtering by Region and Salesperson
 - Designed a clean, intuitive dashboard for exploration and insights
 
