@@ -41,7 +41,7 @@ This project applies the RFM (Recency, Frequency, Monetary) model to segment cus
    - **Lost**
 
 4. **Dashboard Visualization**
-   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://docs.google.com/spreadsheets/d/1m3LPRdzmRKLK7wDkkPmdov1O3R52GVE1/edit?usp=drive_link&ouid=110288971818370501017&rtpof=true&sd=true)
+   - Final data was exported to Excel and visualized in a dashboard: [`rfm_dashboard.xlsx`](https://docs.google.com/spreadsheets/d/1fCtCg8-T2IGCk9ooYXxtIsvgHNqHYSpx/edit?usp=sharing&ouid=110288971818370501017&rtpof=true&sd=true)
       ![Customer Segmentation](image/Visualization_OnlineRetail_Segmentation.jpg)
 
 ---
