@@ -108,7 +108,7 @@ This project visualizes sales performance across multiple regions for a national
   - 📈 Sales Trend by Year (Line Chart)
   - 🏆 Top 10 Selling Products (Table)
   - 📊 Top 10 Products by Sub-Category (Bar Chart)
-- Added slicers for dynamic filtering (e.g., by product, region)
+- Added slicers for dynamic filtering (e.g., by region, category, year)
 - Exported the final dashboard to PDF for sharing
 
 ---
