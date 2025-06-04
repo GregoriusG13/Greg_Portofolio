@@ -124,11 +124,11 @@ This project visualizes sales performance across multiple regions for a national
 
 ## 📁 File Structure
 
-- `sales_raw_data.csv` – Original dataset (optional)
-- `cleaned_sales_data.xlsx` – Cleaned and formatted data in Excel  
-- `sales_dashboard.pbix` – Power BI dashboard file  
-- `sales_dashboard.pdf` – Exported PDF version of the dashboard  
-- `README.md` – Project overview and documentation (this file)  
+- `Raw_SuperStore.csv` – Original dataset (optional)
+- `cleaned_SuperStore.xlsx` – Cleaned and formatted data in Excel  
+- `Dashboard superstore.pbix` – Power BI dashboard file  
+- `Dashboard superstore.pdf` – Exported PDF version of the dashboard  
+- `README.txt` – Project overview and documentation (this file)  
 
 ---
 
@@ -136,7 +136,7 @@ This project visualizes sales performance across multiple regions for a national
 
 💰 Revenue Drivers
 
-- Top 10 products contribute over 60% of total revenue
+- Top 10 products contribute around 17.5% of total revenue, indicating a long-tail distribution
 - High-performing regions like West and Central consistently lead in annual sales
 
 📉 Underperforming Regions
@@ -146,7 +146,7 @@ This project visualizes sales performance across multiple regions for a national
 
 📈 Seasonal Trends
 
-- Sales peak in Q2 and Q4 in most years
+- Sales peak in Q3 and Q4, especially Q4, making them crucial periods for inventory and marketing strategies
 - Useful for planning inventory and promotional bursts
 
 🏷 Category Trends
