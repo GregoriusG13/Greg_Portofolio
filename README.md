@@ -116,7 +116,7 @@ This project visualizes sales performance across multiple regions for a national
 ## 📈 Outputs
 
 - [📁 Cleaned Excel Dataset](https://docs.google.com/spreadsheets/d/1hblZs4XdTkJnqLplfJCUtXqisTk0D6uT/edit?usp=drive_link&ouid=110288971818370501017&rtpof=true&sd=true)
-- [📊 Power BI Dashboard (.pbix)](https://app.powerbi.com/view?r=eyJrIjoiYzlmZWM2MjEtOGJjOS00M2YyLTg0MWEtYmFmYTRlZThkMmFmIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D)
+- [📊 Power BI Dashboard (.pbix)](https://app.powerbi.com/view?r=eyJrIjoiYWY1MzA1NTYtZjcyOS00MmFjLTg2MGMtMGJhY2Y4ZWM1OWNiIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D)
 
   ![Visualization Super Store](image/Dashboard%20Superstore.jpg)
 
