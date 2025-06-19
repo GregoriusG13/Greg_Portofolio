@@ -199,7 +199,7 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 - `sales_data.sql` – SQL script to create and populate the PostgreSQL table  
 - `sales_kpi_dashboard.pbix` – Power BI dashboard file  
 - `sales_dashboard.pdf` – Exported PDF of the dashboard  
-- `README.md` – Project description and documentation (this file)  
+- `README.txt` – Project description and documentation (this file)  
 
 ---
 
@@ -224,3 +224,78 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 - Clear monthly patterns indicate opportunities for seasonal planning
 - Historical data useful for forecasting and goal-setting
+
+---
+
+# [4.🛫 Flight Delay Pattern Analysis (PostgreSQL)](https://drive.google.com/drive/folders/1MXeQxYQi35s5fXh0HCIanZ6AdAGkCxbR?usp=sharing)
+
+This project explores patterns and causes of flight delays in the United States using SQL in PostgreSQL. By analyzing over 1 million rows of flight data, the project uncovers trends in delay times, affected airports, airlines, and root causes such as weather, air traffic, or carrier-related issues. The goal is to demonstrate data exploration, cleaning, and analytical skills without the need for visualization tools.
+
+---
+
+## 🧰 Tools Used
+- **PostgreSQL** – For importing data, data cleaning, and advanced SQL queries
+- **Kaggle Dataset** – Airline Delays: [Link](https://www.kaggle.com/datasets/giovamata/airlinedelaycauses)
+
+---
+
+## 🔄 Project Workflow
+
+### 🗃️ Data Import & Setup
+- Dataset: `DelayedFlights.csv` (~1.2M rows)
+- Created PostgreSQL table `flight_delays` with appropriate data types (mostly `NUMERIC`)
+- Used `COPY` command to import CSV safely, handling nulls and decimals
+
+### 🧹 Data Cleaning & Enhancement
+- Renamed columns for clarity (snake_case)
+- Added calculated columns:
+  - `flight_date` from year, month, day
+  - `is_delayed` (boolean if arrival delay > 15 minutes)
+
+### 📊 Data Analysis (SQL Only)
+- Top 10 busiest origin airports by delay
+- Average delay by airline
+- Trend of delays per hour block (derived from dep_time)
+- Cancellation rate analysis
+- Breakdown of delay causes: weather, carrier, NAS, etc.
+
+### 📋 Sample Queries
+```sql
+-- Average delay per airline
+SELECT unique_carrier, ROUND(AVG(arr_delay), 2) AS avg_delay
+FROM flight_delays
+WHERE arr_delay IS NOT NULL
+GROUP BY unique_carrier
+ORDER BY avg_delay;
+
+-- Hourly pattern of departure delays
+SELECT FLOOR(dep_time / 100) AS hour, COUNT(*) FILTER (WHERE dep_delay > 15) AS delay_count
+FROM flight_delays
+GROUP BY hour
+ORDER BY hour;
+```
+
+---
+
+## 📁 File Structure
+- `DelayedFlights.csv` — Raw dataset from Kaggle
+- `create_table.sql` — SQL script for table creation
+- `data_cleaning.sql` — SQL script for column renaming and data enhancement
+- `flight_analysis_queries.sql` — Collection of analysis queries
+- `README.txt` — Project description and documentation (this file)  
+
+---
+
+## 📌 Key Insights
+
+✈️ **Busiest Airports with Delay**  
+Hubs like ATL, ORD, and LAX experience the highest number of delays — mostly in peak evening hours.
+
+🧭 **Hourly Delay Pattern**  
+Delays tend to spike between 5–8 PM, especially on Friday evenings.
+
+☁️ **Main Delay Causes**  
+Late aircraft and carrier-related issues account for more than 60% of delays.
+
+🏆 **Top On-Time Airlines**  
+Airlines like Hawaiian and Alaska showed the lowest average arrival delays in the dataset.
