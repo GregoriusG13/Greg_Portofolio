@@ -229,7 +229,7 @@ This project visualizes key sales metrics of pharmacy products stored in a Postg
 
 # [4.🛫 Flight Delay Pattern Analysis (PostgreSQL)](https://drive.google.com/drive/folders/1MXeQxYQi35s5fXh0HCIanZ6AdAGkCxbR?usp=sharing)
 
-This project explores patterns and causes of flight delays in the United States using SQL in PostgreSQL. By analyzing over 1 million rows of flight data, the project uncovers trends in delay times, affected airports, airlines, and root causes such as weather, air traffic, or carrier-related issues. The goal is to demonstrate data exploration, cleaning, and analytical skills without the need for visualization tools.
+This project analyzes U.S. flight delay data using structured SQL scripts in PostgreSQL. It focuses on importing, cleaning, and analyzing a raw dataset (DelayedFlights.csv) containing over 1 million flight records. The analysis includes identifying common delay patterns, airline performance, airport congestion, and cancellation trends—all done entirely within SQL, without the use of BI or visualization tools.
 
 ---
 
