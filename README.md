@@ -2,8 +2,10 @@ Hi, I’m Greg , a junior data analyst eager to turn numbers into clear, useful 
 My current toolkit:
 
 - SQL – writing queries for data extraction, cleaning, and summarization
-- Microsoft Excel – intermediate formulas, pivot tables, basic VBA macros, dashboards to visualize insights
+- Microsoft Excel – intermediate formulas, pivot tables, dashboards to visualize insights
 - Power BI – building interactive dashboards to visualize insights
+
+[`Click here to view my certificate`](https://drive.google.com/drive/folders/1avT65JJJxh2_csxrnakQhcNg5m4B5PUu?usp=sharing)
 
 ---
 
