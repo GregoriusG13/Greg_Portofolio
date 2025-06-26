@@ -248,7 +248,13 @@ This project analyzes U.S. flight delay data using structured SQL scripts in Pos
 - Created PostgreSQL table `flight_delays` with appropriate data types (mostly `NUMERIC`)
 - Used `COPY` command to import CSV safely, handling nulls and decimals
 
-### 🧹 Data Cleaning & Enhancement
+### 🧹 Data Cleaning, Enhancement & Manipulate
+- Renamed columns for clarity using snake_case (e.g., arr_time → arrival_time)
+- Converted raw time formats (e.g., 1425 → 14:25) for human readability
+- Formatted delay durations from minutes to "X hr Y min" strings
+- Mapped numeric day_of_week to day names (Monday, Tuesday, etc.)
+- Selected only relevant and meaningful columns for analysis
+- Preserved original data structure (non-destructive transformation)
 - Renamed columns for clarity (snake_case)
 - Added calculated columns:
   - `flight_date` from year, month, day
@@ -281,8 +287,9 @@ ORDER BY hour;
 
 ## 📁 File Structure
 - `DelayedFlights.csv` — Raw dataset from Kaggle
-- `create_table.sql` — SQL script for table creation
-- `data_cleaning.sql` — SQL script for column renaming and data enhancement
+- `Create_Table_Flight_Delay.sql` — SQL script for table creation
+- `Data Cleaning & Enhancement.sql` — SQL script for column renaming and data enhancement
+- `Data Manipulation ( Easy To Read Data ).sql` — SQL script for manipulating data to make it easier to read
 - `flight_analysis_queries.sql` — Collection of analysis queries
 - `README.txt` — Project description and documentation (this file)  
 
