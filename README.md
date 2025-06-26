@@ -287,8 +287,8 @@ ORDER BY hour;
 
 ## 📁 File Structure
 - `DelayedFlights.csv` — Raw dataset from Kaggle
-- `Flight_Delayed_Cleaned.csv` — Raw dataset from Kaggle
-- `Create_Table_Flight_Delay.sql` — Dataset that has been cleaned and manipulated
+- `Flight_Delayed_Cleaned.csv` — Dataset that has been cleaned and manipulated
+- `Create_Table_Flight_Delay.sql` — SQL script for table creation
 - `Data Cleaning & Enhancement.sql` — SQL script for column renaming and data enhancement
 - `Data Manipulation ( Easy To Read Data ).sql` — SQL script for manipulating data to make it easier to read
 - `flight_analysis_queries.sql` — Collection of analysis queries
